@@ -121,6 +121,11 @@ add_action( 'widgets_init', 'osso_widgets_init' );
  */
 function osso_scripts() {
 	wp_enqueue_style( 'osso-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'osso-freelancer', get_template_directory_uri() . '/assets/css/freelancer.css' );
+	wp_enqueue_style( 'osso-freelancer.min', get_template_directory_uri() . '/assets/css/freelancer.min.css' );
+	wp_enqueue_style( 'osso-bootstrap', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.css' );
+
+    wp_enqueue_script('jquery');
 
 	wp_enqueue_script( 'osso-jqBootstrapValidation', get_template_directory_uri() . '/assets/js/jqBootstrapValidation.js', array(), '1.0', true );
 	wp_enqueue_script( 'osso-jqBootstrapValidation.min', get_template_directory_uri() . '/assets/js/jqBootstrapValidation.min.js', array(), '1.0', true );
