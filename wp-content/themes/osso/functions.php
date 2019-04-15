@@ -122,13 +122,12 @@ add_action( 'widgets_init', 'osso_widgets_init' );
 function osso_scripts() {
 	wp_enqueue_style( 'osso-style', get_stylesheet_uri() );
 
-	wp_unqueue_script('jquery');
 	wp_enqueue_script( 'osso-jqBootstrapValidation', get_template_directory_uri() . '/assets/js/jqBootstrapValidation.js', array(), '1.0', true );
+	wp_enqueue_script( 'osso-jqBootstrapValidation.min', get_template_directory_uri() . '/assets/js/jqBootstrapValidation.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'osso-freelancer.js', get_template_directory_uri() . '/assets/js/freelancer.js', array(), '1.0', true );
 	wp_enqueue_script( 'osso-freelancer.min', get_template_directory_uri() . '/assets/js/freelancer.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'osso-contact_me', get_template_directory_uri() . '/assets/js/contact_me.js', array(), '1.0', true );
-	wp_enqueue_script( 'osso-contact_me_min', get_template_directory_uri() . '/assets/js/contact_me.min.js', array(), '1.0', true );
-
+	wp_enqueue_script( 'osso-contact_me.min', get_template_directory_uri() . '/assets/js/contact_me.min.js', array(), '1.0', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

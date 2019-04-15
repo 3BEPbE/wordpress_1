@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1671f15-6170-4a5e-a01b-64473ab08e89" name="Default" comment="" />
+    <list default="true" id="c1671f15-6170-4a5e-a01b-64473ab08e89" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +34,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="129" column="103" selection-start-line="129" selection-start-column="103" selection-end-line="129" selection-end-column="103" />
+            <state relative-caret-position="330">
+              <caret line="129" column="104" selection-start-line="129" selection-start-column="104" selection-end-line="129" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -48,6 +50,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,6 +79,7 @@
     <option name="width" value="1400" />
     <option name="height" value="789" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -104,6 +110,20 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="contact_me.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="osso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osso" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="freelancer.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="osso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osso" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jqBootstrapValidation.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -144,12 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555302342217</updated>
-      <workItem from="1555302343334" duration="3355000" />
+      <workItem from="1555302343334" duration="3825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3355000" />
+    <option name="totallyTimeSpent" value="3825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="23" width="1400" height="789" extended-state="0" />
@@ -162,7 +182,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -246,8 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="129" column="103" selection-start-line="129" selection-start-column="103" selection-end-line="129" selection-end-column="103" />
+        <state relative-caret-position="330">
+          <caret line="129" column="104" selection-start-line="129" selection-start-column="104" selection-end-line="129" selection-end-column="104" />
         </state>
       </provider>
     </entry>
